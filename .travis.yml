@@ -1,0 +1,19 @@
+language: node_js
+node_js:
+  - "15.3.0"
+
+cache:
+  directories:
+    - node_modules
+
+install:
+  - npm install -g serverless@2.72.2
+  - travis_retry yarn install
+  - mkdir -p /home/travis/.serverless/components/registry/npm/@sls-next/serverless-component@3.6.0
+
+script:
+  - serverless
+branches:
+  only:
+    - staging
+    - master

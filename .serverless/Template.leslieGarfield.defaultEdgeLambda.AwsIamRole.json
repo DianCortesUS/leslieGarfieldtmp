@@ -1,0 +1,31 @@
+{
+  "name": "aubzrlf-si1m2hs",
+  "arn": "arn:aws:iam::129118464012:role/aubzrlf-si1m2hs",
+  "service": [
+    "edgelambda.amazonaws.com",
+    "lambda.amazonaws.com"
+  ],
+  "policy": {
+    "Version": "2012-10-17",
+    "Statement": [
+      {
+        "Effect": "Allow",
+        "Resource": "*",
+        "Action": [
+          "logs:CreateLogGroup",
+          "logs:CreateLogStream",
+          "logs:PutLogEvents"
+        ]
+      },
+      {
+        "Effect": "Allow",
+        "Resource": "arn:aws:s3:::aubzrlf-w93gd88/*",
+        "Action": [
+          "s3:GetObject",
+          "s3:PutObject"
+        ]
+      }
+    ]
+  },
+  "region": "us-east-1"
+}

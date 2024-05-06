@@ -1,0 +1,79 @@
+{
+  "name": "leslie-garfield",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mapbox/geo-viewport": "^0.4.0",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "@perchwell/components": "^2.4.2",
+    "@perchwell/domain": "^2.4.2",
+    "@perchwell/hooks": "^2.4.2",
+    "@perchwell/seo": "^2.4.2",
+    "@perchwell/utils": "^2.4.2",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@turf/bbox": "^6.0.1",
+    "@welldone-software/why-did-you-render": "^6.0.3",
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.21.0",
+    "date-fns": "^2.16.1",
+    "honeybadger": "^1.4.0",
+    "http-proxy-middleware": "^1.0.5",
+    "intersection-observer": "^0.11.0",
+    "mapbox-gl": "^1.12.0",
+    "material-ui-dropzone": "^3.5.0",
+    "next": "^10.0.0",
+    "next-transpile-modules": "^6.0.0",
+    "prop-types": "^15.7.2",
+    "querystring": "^0.2.0",
+    "react": "^16.13.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-dom": "^16.13.1",
+    "react-google-recaptcha": "^2.1.0",
+    "react-hook-form": "^6.9.5",
+    "react-intersection-observer": "^8.31.0",
+    "react-mapbox-gl": "^4.8.6",
+    "react-query": "^2.26.3",
+    "react-query-devtools": "^2.6.3",
+    "react-scroll": "^1.8.1",
+    "react-truncate": "^2.4.0",
+    "styled-components": "^5.1.1",
+    "use-debounce": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "babel-plugin-styled-components": "^1.12.0",
+    "eslint": "^7.14.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.20.6",
+    "eslint-plugin-react-hooks": "^4.1.0",
+    "prettier": "^2.1.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "eslint . --cache-location node_modules/.cache/eslint",
+    "format": "prettier --write \"**/*.+(js|json|css|md|mdx|html)\""
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11",
+      "not edge 18"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11",
+      "not edge 18"
+    ]
+  }
+}

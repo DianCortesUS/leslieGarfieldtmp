@@ -1,0 +1,17 @@
+{
+  "name": "aubzrlf-hd1n4fa",
+  "hash": "E5zVCKio1fWS+0f9fLSVnwB6FcCQfZ6Z54JVACtA9jw=",
+  "description": "Default Lambda@Edge for Next CloudFront distribution",
+  "memory": 512,
+  "timeout": 10,
+  "code": "/Users/brynhildr/leslie-garfield/.serverless_nextjs/default-lambda",
+  "shims": [],
+  "handler": "index.handler",
+  "runtime": "nodejs14.x",
+  "env": {},
+  "role": {
+    "arn": "arn:aws:iam::129118464012:role/aubzrlf-si1m2hs"
+  },
+  "arn": "arn:aws:lambda:us-east-1:129118464012:function:aubzrlf-hd1n4fa",
+  "region": "us-east-1"
+}

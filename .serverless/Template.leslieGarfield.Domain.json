@@ -1,0 +1,13 @@
+{
+  "region": "us-east-1",
+  "privateZone": false,
+  "domain": "lesliegarfield.com",
+  "subdomains": [
+    {
+      "domain": "dev.lesliegarfield.com",
+      "distributionId": "E162CT20Q3A4X7",
+      "url": "https://d25vs88qml6jsq.cloudfront.net",
+      "type": "awsCloudFront"
+    }
+  ]
+}

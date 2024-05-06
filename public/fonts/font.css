@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Copernicus';
+  src: local('Copernicus Medium'), local('Copernicus-Medium'),
+    url('files/Copernicus-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: local('Copernicus Bold'), local('Copernicus-Bold'),
+    url('files/Copernicus-Bold.woff') format('woff');
+  font-weight: bold; /* 700 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: local('Copernicus Italic'), local('Copernicus-Italic'),
+    url('files/Copernicus-BookItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Copernicus';
+  src: local('Copernicus MediumItalic'), local('Copernicus-MediumItalic'),
+    url('files/Copernicus-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Sweet Sans';
+  src: local('Sweet Sans Pro Regular'), local('sweetsansproregular-webfont'),
+    url('files/sweetsansproregular-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}

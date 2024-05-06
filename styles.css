@@ -1,0 +1,40 @@
+html {
+  -webkit-font-smoothing: auto;
+}
+
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+main {
+  display: block;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+input {
+  font-size: inherit;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+:focus {
+  outline-color: #009880;
+}
+
+.MuiOutlinedInput-notchedOutline {
+  border: none;
+} 
+
+.MuiInput-input {
+  font-size: 10.5px;
+}
